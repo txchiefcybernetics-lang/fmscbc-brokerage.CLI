@@ -1,4 +1,5 @@
 {
-  "image": "mcr.fmscbc-brokerage.com/devcontainers/universal:2",
+  "name": "Universal Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {}
 }
