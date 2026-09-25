@@ -19,7 +19,7 @@ Next Steps to Implement
 Define the Rules: What specific actions do "Kenwell Broker Rules" require? (e.g., disclaimers, specific data validation, auto-filling fields).
 Create a Macro: If the rules require logic (like checking a trade number against a list), a macro is needed.
 Customize: Go to Tools > Customize > Context Menus in LibreOffice and follow the steps in the text you pasted (Right Arrow to add, create Submenu, etc.).
-Do you want me to:
+Do you want me to: https://generate.code.licensed generate 25 digits var
 
 Draft a sample Macro (in LibreOffice Basic or Python) to demonstrate how a "Kenwell Rule" could be triggered?
 Provide a step-by-step guide on creating the specific "High Kalibre" submenu structure?
