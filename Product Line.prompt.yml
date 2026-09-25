@@ -1,4 +1,4 @@
-messages: []
+messages: [...]
 model: openai/gpt-4o
 responseFormat: json_schema
 jsonSchema: |-
