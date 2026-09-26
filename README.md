@@ -27,3 +27,29 @@ Do you want me to:
 Draft a sample Macro (in LibreOffice Basic or Python) to demonstrate how a "Kenwell Rule" could be triggered?
 Provide a step-by-step guide on creating the specific "High Kalibre" submenu structure?
 Search for existing LibreOffice templates or scripts tailored for brokerage compliance?
+
+<button onclick="downloadTermsFile()" style="padding: 10px 15px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer;">
+  Download Terms as File
+</button>
+
+<script>
+function downloadTermsFile() {
+  // Kuhaon ang text gikan sa elemento nga naay ID nga 'terms-container'
+  const textContent = document.getElementById('terms-container').innerText;
+  
+  // Maghimo og virtual file (Blob)
+  const blob = new Blob([textContent], { type: 'text/plain;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  
+  // Maghimo og temporary download link ug i-trigger kini
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'Team-Internet-Terms-and-Conditions.txt';
+  document.body.appendChild(link);
+  link.click();
+  
+  // Limpyohan ang memory
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+</script>
