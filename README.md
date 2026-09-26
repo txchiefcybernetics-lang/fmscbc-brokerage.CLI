@@ -1,5 +1,3 @@
-#C
-##.CI/CD
 ### Ask Summarized by context for Kenwell Broker Rules Customized
 kenwell High Kalibre Office
 
