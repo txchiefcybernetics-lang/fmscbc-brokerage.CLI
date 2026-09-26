@@ -1,4 +1,4 @@
-Summarized by context for Kenwell Broker Rules Customized "kenwell High Kalibre Office"
+#Summarized by context for Kenwell Broker Rules Customized "kenwell High Kalibre Office"
 
 To provide a useful summary, I need to clarify how you want this applied. The pasted text describes general LibreOffice capabilities, but your goal seems to be integrating Kenwell Broker Rules into a custom "High Kalibre" experience within LibreOffice (likely for brokerage documentation, trading reports, or client communications).
 
